@@ -12,7 +12,9 @@
 * （1）声明一个UI物体对象；
 * （2）用属性封装UI物体对象的名字；
 * （3）用bool属性来判断UI是否激活；
-* （4）用构造函数构件UI；
+* **此布尔属性用来判定UI页面是现实还是隐藏，它的返回值是其本身，是真就返回真，是假就返回假。**
+* （4）用构造函数构建UI；
+* **是为了将预制体生成到game视图。生成后再给UI添加脚本。**
 ```c
 using System.Collections;
 using System.Collections.Generic;
